@@ -67,6 +67,7 @@ class Operatingsystem < ApplicationRecord
                'Coreos'    => %r{CoreOS|Flatcar}i,
                'Fcos'      => %r{FCOS|FedoraCoreOS|FedoraCOS}i,
                'Rhcos'     => %r{RHCOS|RedHatCoreOS|RedHatCOS}i,
+               'Kairos'    => %r{Kairos}i, 
                'Rancheros' => %r{RancherOS}i,
                'Gentoo'    => %r{Gentoo}i,
                'Solaris'   => %r{Solaris}i,
